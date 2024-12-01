@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/COAD/COAD_chapter4.md",
+                "file": "00CourseLearning/copy_黄河史.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COAD_chapter4"
+              "title": "copy_黄河史"
             }
           }
         ]
@@ -154,19 +154,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "d5c7f387c9e732f6",
-            "type": "leaf",
-            "state": {
-              "type": "github-issue-controls-view",
-              "state": {},
-              "icon": "github",
-              "title": "Github Issue Controls"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,14 +173,17 @@
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "marp-slides:Show Slide Preview": false,
-      "githobs:Manage a github issue": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5c7f387c9e732f6",
+  "active": "9b9460bd7e8e8bad",
   "lastOpenFiles": [
+    "00CourseLearning/黄河史.md",
+    "00CourseLearning/copy_黄河史.md",
+    "00CourseLearning/COAD.md",
+    "00CourseLearning/COAD/COAD_chapter4.md",
     "00CourseLearning/COAD/COAD_chapter3.md",
     "00CourseLearning/COAD/COAD_chapter2.md",
-    "00CourseLearning/COAD/COAD_chapter4.md",
     "00CourseLearning/COAD/COAD_chapter1.md",
     "00CourseLearning/COAD/COAD.md",
     "00_PLAN/THEMorningPlan.md",
@@ -210,9 +203,6 @@
     "00Tree/AIGC.md",
     "00_PLAN",
     "00CourseLearning/discrete_Math.md",
-    "00CourseLearning/copy_黄河史.md",
-    "00CourseLearning/COAD.md",
-    "00CourseLearning/黄河史.md",
     "00IAE/10.25大创第一次组会.md",
     "00IAE/11.22.md",
     "00_attachment/Pasted image 20241127213410.png",
