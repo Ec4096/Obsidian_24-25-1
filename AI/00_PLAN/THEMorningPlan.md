@@ -13,7 +13,7 @@ THEMorningPlan
 # The Extra Task
 - [ ] 对于离散进行知识梳理
 - [x] 完成AI导论大作业(AStar算法) ✅ 2024-12-01[16:36 --> 17:52] 
-- [ ] 学习使用Obsidian连接Github
+- [x] 学习使用Obsidian连接Github ✅ 2024-12-01
 
 # The Attach Completed Task
 - [ ] 1
