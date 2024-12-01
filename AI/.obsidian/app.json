@@ -1,0 +1,15 @@
+{
+  "showLineNumber": false,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Notes",
+  "attachmentFolderPath": "00_attachment",
+  "strictLineBreaks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
