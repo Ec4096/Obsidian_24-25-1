@@ -18,4 +18,28 @@
 	**复合命题**是由**原子与联结词组成**
 	复合命题也**具有真值**
 		![[Pasted image 20241203130917.png]]
+	Example:
+		A 仅当 B 符号化得 A -> B
+			B成立时A可以发生也可以不发生 即可以有 01与11
+			而B不成立时 A一定不成立 即不能出现10 只能出现00
+			所以翻译为 A -> B
+## 3. 命题-命题符号化-合式公式
+- 合式公式(Well-Formed Formulas **WFFs**)
+	合式公式是命题符号化的结果 是命题”语言“中的”句子“
+	- **Definition**
+		1.Recursion **Base**
+			命题常元和命题变元是WFFs
+		2.Rule
+			若A,B是WFFs 则 $(\lnot A),(A\lor B),(A\land B),(A\to B),(A\leftrightarrow B)$是WFFs
+		3.极小性条款
+			有以上规则在有限步生成的都是WFFs
+- 合式公式的简化规则
+	符号的优先级**由高到低**为:
+	$\lnot ,\land ,\lor ,\to ,\leftrightarrow$
+	**同等级**的一二元运算符号**从左到右进行结合**
+		 ![[Pasted image 20241203133612.png]]
+## 4. 命题-命题符号化-合式公式的语义
+- 合式公式的记号
+	记含n个原子P1,P2,...,Pn的公式G为: G(P1,P2,...,Pn)
+- 指派assignment
 	
