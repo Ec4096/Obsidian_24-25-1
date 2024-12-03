@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e3f3eef61cbc0812",
@@ -170,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,6 +190,8 @@
   },
   "active": "9b9460bd7e8e8bad",
   "lastOpenFiles": [
+    "00_attachment/Pasted image 20241203130917.png",
+    "00_attachment/Pasted image 20241203130749.png",
     "00CourseLearning/DM/DiscreteMath.md",
     "00CourseLearning/DM/DM_1_logic.md",
     "00CourseLearning/COAD/COAD.md",
@@ -214,7 +218,6 @@
     "00JSrg/Re_ML_Lihongyi.md",
     "00JSrg/00Tree.md",
     "template/PLANtemplate.md",
-    "template/日记模板.md",
     "00_PLAN",
     "00_attachment/Pasted image 20241127213410.png",
     "00_attachment/Pasted image 20241127213236.png",
@@ -225,7 +228,6 @@
     "00_attachment/Pasted image 20241127212413.png",
     "00_attachment/Pasted image 20241127212315.png",
     "00_attachment/Pasted image 20241127212025.png",
-    "00_attachment/Pasted image 20241127202044.png",
     "Untitled.canvas",
     "00PythonGrammar",
     "00JSrg",
