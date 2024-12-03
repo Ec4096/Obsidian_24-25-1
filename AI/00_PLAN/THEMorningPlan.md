@@ -16,5 +16,4 @@ THEMorningPlan
 - [x] 学习使用Obsidian连接Github ✅ 2024-12-01
 
 # The Attach Completed Task
-- [ ] 1
-- [ ] 2
+- [x] 完成大创周报 ✅ 2024-12-01
