@@ -17,3 +17,24 @@ THEMorningPlan
 
 # The Attach Completed Task
 - [x] 完成大创周报 ✅ 2024-12-01
+
+
+
+THEMorningPlan
+2024_12_03_Tue
+10:09
+# The Major Task
+- [ ] 完成离散作业-第七章 群论 群同构与元素的阶
+- [ ] 对于离散进行知识梳理
+
+# The Second Task
+- [ ] 整理计组第五章内容
+- [ ] 完成计组第五章作业
+
+# The Extra W
+- [ ] 过一遍大物思维导图
+- [ ] 2
+
+# The Attach Completed Task
+- [ ] 完成对于考试时间安排的标准化记录
+- [ ] 2
