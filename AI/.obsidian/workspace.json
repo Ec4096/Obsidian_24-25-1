@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2589712b97f1c350",
+        "id": "fe432edd587f19a2",
         "type": "tabs",
         "children": [
           {
-            "id": "9b9460bd7e8e8bad",
+            "id": "ba0d46163f484c22",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e3f3eef61cbc0812",
@@ -188,21 +187,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b9460bd7e8e8bad",
+  "active": "ba0d46163f484c22",
   "lastOpenFiles": [
-    "00_attachment/Pasted image 20241203200825.png",
+    "00CourseLearning/DM/DiscreteMath.md",
+    "00CourseLearning/黄河史.md",
+    "00CourseLearning/DM/DM_1_logic.md",
     "00_attachment/Pasted image 20241203200246.png",
+    "00CourseLearning/COAD/COAD_chapter2.md",
+    "00CourseLearning/COAD/COAD_chapter1.md",
+    "00_PLAN/THEMorningPlan.md",
+    "00_attachment/Pasted image 20241203200825.png",
     "00_attachment/Pasted image 20241203133612.png",
     "00_attachment/Pasted image 20241203130917.png",
     "00_attachment/Pasted image 20241203130749.png",
-    "00CourseLearning/DM/DiscreteMath.md",
-    "00CourseLearning/DM/DM_1_logic.md",
     "00CourseLearning/COAD/COAD.md",
     "00CourseLearning/COAD.md",
     "00CourseLearning/DM.md",
     "00CourseLearning/COAD/COAD_chapter4.md",
     "00CourseLearning/DM",
-    "00_PLAN/THEMorningPlan.md",
     "00Notes/test01.md",
     "00Notes/test 02.md",
     "00Notes/Stanford CS.md",
@@ -211,11 +213,8 @@
     "00Notes/LaTeX.md",
     "00Notes/AI导论.md",
     "00CourseLearning/discrete_Math.md",
-    "00CourseLearning/黄河史.md",
     "00CourseLearning/黄河史1.md",
     "00CourseLearning/COAD/COAD_chapter3.md",
-    "00CourseLearning/COAD/COAD_chapter2.md",
-    "00CourseLearning/COAD/COAD_chapter1.md",
     "00PythonGrammar/00.md",
     "00JSrg/Untitled.md",
     "00JSrg/Re_ML_Lihongyi.md",
@@ -227,7 +226,6 @@
     "00_attachment/Pasted image 20241127212938.png",
     "00_attachment/Pasted image 20241127212834.png",
     "00_attachment/Pasted image 20241127212720.png",
-    "00_attachment/Pasted image 20241127212440.png",
     "Untitled.canvas",
     "00PythonGrammar",
     "00JSrg",

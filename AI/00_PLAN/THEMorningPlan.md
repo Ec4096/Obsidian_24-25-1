@@ -36,5 +36,5 @@ THEMorningPlan
 - [ ] 2
 
 # The Attach Completed Task
-- [ ] 完成对于考试时间安排的标准化记录
+- [x] 完成对于考试时间安排的标准化记录 ✅ 2024-12-04
 - [ ] 2
