@@ -87,3 +87,9 @@
 | **F**   |   **T** |     |
 - 广义DeMorgan定理
 	![[Pasted image 20241204191446.png]]
+	相关推论:
+	- $F\Leftrightarrow G$ iff $F^{*}\Leftrightarrow G^{*}$
+	- $F\Rightarrow G$ iff $G^{*}\Rightarrow F^{*}$
+# 命题-范式
+## 1. 命题-范式-析取范式与合取范式
+- 
