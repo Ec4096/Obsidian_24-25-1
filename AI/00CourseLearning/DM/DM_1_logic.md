@@ -156,6 +156,7 @@
 - 证明序列的使用
 	- P(Premise) 引入前提
 	- T(Tautolog) 恒等变换
+	- MP 
 - 常用的推理规则
 	![[Pasted image 20241204210315.png]]
 	![[Pasted image 20241204210339.png]]
