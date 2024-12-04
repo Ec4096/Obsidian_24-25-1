@@ -140,4 +140,8 @@
 		在该集合中删除任意一个联结词后不再是全功能的
 	- Example
 		$\lnot , \land$ 和 $\lnot , \lor$ 是极小全功能集
-		$$
+		$\lnot ,\leftrightarrow$ 不是全功能的
+		$\land ,\lor$ 不是全功能的
+		$\downarrow$ 是全功能的,同理$\uparrow$ 也是全功能的
+# 命题-推理和证明方法
+## 1. 命题-推理和证明方法
