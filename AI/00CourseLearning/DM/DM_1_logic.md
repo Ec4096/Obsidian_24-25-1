@@ -134,4 +134,10 @@
 	- 异或(XOR)
 		表示$P\bigoplus Q \Leftrightarrow ( P\land \lnot Q) \lor (\lnot P\land Q)$
 ## 2. 命题-联结词的补充与归约-联结词的归约
-- 
+- 全功能集
+	所有运算均能用该集合中的联结词表示(主要是$\lnot , \land , \lor$)的组合
+	- 极小全功能集
+		在该集合中删除任意一个联结词后不再是全功能的
+	- Example
+		$\lnot , \land$ 和 $\lnot , \lor$ 是极小全功能集
+		$$
