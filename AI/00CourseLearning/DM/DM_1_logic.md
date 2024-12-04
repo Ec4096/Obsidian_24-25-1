@@ -92,4 +92,24 @@
 	- $F\Rightarrow G$ iff $G^{*}\Rightarrow F^{*}$
 # 命题-范式
 ## 1. 命题-范式-析取范式与合取范式
-- 
+- 基本积与基本和
+	- 基本积
+		合式公式中的变元或变元否定的**合取$\land$
+	- 基本和
+		合式公式中的变元或变元否定的**析取$\lor$
+- 析取范式与合取范式
+	- 析取范式
+		$A\Leftrightarrow A1\lor A2\lor ...\lor An$ (其中Ai是基本积)
+	- 合取范式
+		$A\Leftrightarrow A1\land A2\land ...\land An$ (其中Ai是基本和)
+- 极小项与极大项
+	- 极小项
+		n个命题变元P1,P2,...,Pn的**基本积**,每个变元都要出现
+		example:
+			$\lnot P \land\lnot Q \land\lnot  R$ 标记为$m_{0}$ 全0才能为T
+	- 极大项
+		n个命题变元P1,P2,...,Pn的基本和,每个变元都要出现
+		$\lnot P \lor\lnot Q \lor\lnot  R$ 标记为$M_{7}$ 全1才能为F
+- 主析取范式
+	与A逻辑等价,且有**极小项之和**组成
+	
