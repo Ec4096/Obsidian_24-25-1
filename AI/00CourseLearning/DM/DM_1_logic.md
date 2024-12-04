@@ -128,4 +128,10 @@
 	二元运算有16个
 - 二元运算的补充
 	- 与非(NAND)
-	- $\lnand$ 
+		表示$P\uparrow Q \Leftrightarrow \lnot ( P\land Q)$
+	- 或非(NOR)
+		表示$P\downarrow Q \Leftrightarrow \lnot ( P\lor Q)$
+	- 异或(XOR)
+		表示$P\bigoplus Q \Leftrightarrow ( P\land \lnot Q) \lor (\lnot P\land Q)$
+## 2. 命题-联结词的补充与归约-联结词的归约
+- 
