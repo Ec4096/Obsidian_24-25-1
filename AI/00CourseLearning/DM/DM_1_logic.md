@@ -156,8 +156,20 @@
 - 证明序列的使用
 	- P(Premise) 引入前提
 	- T(Tautolog) 恒等变换
-	- MP 
+	- MP(modus ponens) P,$P \rightarrow Q$ 那么Q
 - 常用的推理规则
 	![[Pasted image 20241204210315.png]]
 	![[Pasted image 20241204210339.png]]
-	
+- 常用方法
+	- CP规则-附加前提法
+		要证明![[Pasted image 20241204211520.png]]
+		那么先假设A成立
+	- 反证法
+		假设结论是假,即:
+		![[Pasted image 20241204211733.png]]
+	以及
+	![[Pasted image 20241204211822.png]]
+- 证明策略
+	- 穷举法
+	- 分情况证明
+	- 正向推理,逆向推理
