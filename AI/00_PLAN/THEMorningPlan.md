@@ -19,6 +19,7 @@ THEMorningPlan
 - [x] 完成大创周报 ✅ 2024-12-01
 
 
+---
 
 THEMorningPlan
 2024_12_03_Tue
@@ -37,4 +38,25 @@ THEMorningPlan
 
 # The Attach Completed Task
 - [x] 完成对于考试时间安排的标准化记录 ✅ 2024-12-04
+- [ ] 2
+
+
+---
+THEMorningPlan
+2024_12_05_Thu
+10:25
+# The Major Task
+- [ ] 完成对于离散第二章的总结
+- [ ] 完成大物作业,并自学完成22章后半内容并完成作业
+
+# The Second Task
+- [ ] dcroad的调试
+- [ ] 完成听力训练以及一套试卷
+
+# The Extra Task
+- [ ] 复习大物本学期第一章所学的内容
+- [ ] 2
+
+# The Attach Completed Task
+- [ ] 1
 - [ ] 2

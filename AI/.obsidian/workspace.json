@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/DM/DM_1_logic.md",
+                "file": "00_PLAN/THEMorningPlan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DM_1_logic"
+              "title": "THEMorningPlan"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e3f3eef61cbc0812",
@@ -190,8 +189,8 @@
   },
   "active": "ba0d46163f484c22",
   "lastOpenFiles": [
-    "00CourseLearning/DM/DiscreteMath.md",
     "00CourseLearning/DM/DM_1_logic.md",
+    "00CourseLearning/DM/DiscreteMath.md",
     "00_attachment/Pasted image 20241204211822.png",
     "00_attachment/Pasted image 20241204211733.png",
     "00_attachment/Pasted image 20241204211520.png",
