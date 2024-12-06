@@ -140,6 +140,7 @@
 		在该集合中删除任意一个联结词后不再是全功能的
 	- Example
 		$\lnot , \land$ 和 $\lnot , \lor$ 是极小全功能集
+		$\lnot ,\rightarrow$  是极小全功能集
 		$\lnot ,\leftrightarrow$ 不是全功能的
 		$\land ,\lor$ 不是全功能的
 		$\downarrow$ 是全功能的,同理$\uparrow$ 也是全功能的
@@ -201,4 +202,17 @@
 	- **谓词公式**就是将命题公式中的原子换为**谓词原子**
 		- 即谓词公式满足命题公式的所有运算规律
 - 量词
-	- 全称量词
+	- 全称量词(Universal) $\forall$
+	- 特称量词(Existential) $\exists$
+- 符号的优先级**由高到低**为:
+	$\forall ,\exists ,\lnot ,\land ,\lor ,\to ,\leftrightarrow$
+- 符号化谓词公式-**唯一性**的表达
+	Everyone has exactly one best friend
+	B(x,y)：y是x最好的朋友
+	Ineuqal(x,y)：x和y是不同的对象
+	唯一性：“y是唯一的”$\Leftrightarrow$ “对任意的z，如果z不等于y，则x和z不是最好的朋友”
+	$\forall x\exists y(B(x,y) \land \forall z(Ineauql(z,y)\rightarrow \lnot B(x,z)))$
+	用数学符号$\exists!$表示唯一 即上式可以表示为
+	$\forall x\exists! yB(x,y)$
+	
+	
