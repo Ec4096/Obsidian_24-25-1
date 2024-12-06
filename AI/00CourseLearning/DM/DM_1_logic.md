@@ -179,7 +179,7 @@
 
 
 # 谓词-谓词与量词
-## 1. 谓词-谓词与量词
+## 1. 谓词-谓词与量词-基本概念
 - 谓词公式形式系统中使用的符号
 	- 常数符号(constant):3,John,Mary...
 	- 变量符号(variables):x,y,z
@@ -214,5 +214,10 @@
 	$\forall x\exists y(B(x,y) \land \forall z(Ineauql(z,y)\rightarrow \lnot B(x,z)))$
 	用数学符号$\exists!$表示唯一 即上式可以表示为
 	$\forall x\exists! yB(x,y)$
-	
-	
+- 辖域(Scope)&约束变量&自由变量
+	$\forall x\exists yP(x,y) \land Q(x)$ 
+	Scope of $\forall x$ is $\exists yP(x,y)$
+	Scope of $\exists y$ is $P(x,y)$
+	P中的x和y是约束变量
+	Q中的x是自由变量
+## 1. 谓词-谓词与量词-谓词的语义
