@@ -360,6 +360,8 @@
 	- 
 		![[Pasted image 20241210135758.png]]
 		![[Pasted image 20241210135817.png]]
+- 解题Tips
+	一般先特殊后一般 即先ES 后 US
 	
 
 
