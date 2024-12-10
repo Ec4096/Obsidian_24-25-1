@@ -89,7 +89,7 @@
 	![[Pasted image 20241204191446.png]]
 	相关推论:
 	- $F\Leftrightarrow G$ iff $F^{*}\Leftrightarrow G^{*}$
-	- $F\Rightarrow G$ iff $G^{*}\Rightarrow F^{*}$
+	- $F\Rightarrow G$ iff $G^{*}\Rightarrow F^{*}$ 
 # 命题-范式
 ## 1. 命题-范式-析取范式与合取范式
 - 基本积与基本和
@@ -239,4 +239,80 @@
 	- G是可满足的(相容的) iff 存在解释I,使得$G|_{I}$ = 1,称I是G的模型
 	- G是永假的(矛盾的) iff 对于所有解释I,$G|_{I}$ = 0
 	- G是永真的 iff 对于所有的解释I,$G|_{I}$ = 1
+- 逻辑等价
+	$F\Leftrightarrow G$ iff $F\leftrightarrow G$是永真的
+- 永真蕴含
+	$F\Rightarrow G$ iff $F\rightarrow G$是永真的
+- others
+	- 所有有关恒等式和不等式的结构 谓词公式与命题公式通用
+		- Example
+			代入规则和替换规则
+			恒等式的自反性,对称性和传递性,不等式的传递性
+	- 而谓词公式特有的性质是关于量词的逻辑规律
+## 2. 谓词-公式间的关系式-量词的逻辑关系
+- 更名规则
+	设F(x)表示含自由变量x的公式,设变量**y不出现在F(x)** 中 则：
+	$\forall x F(x) \Leftrightarrow \forall y F(y)$
+	$\exists x F(x) \Leftrightarrow \exists y F(y)$
+- 量词的解消
+	设F是**不含自由变量x**的公式 则：
+	$\forall x F \Leftrightarrow F$
+	$\exists x F \Leftrightarrow F$
+	- 辖域的扩张
+		$(\forall x F(x)) \land G \Leftrightarrow \forall x (F(x) \land G)$
+		$(\forall x F(x)) \lor G \Leftrightarrow \forall x (F(x) \lor G)$
+		$(\exists x F(x)) \land G \Leftrightarrow \exists x (F(x) \land G)$
+		$(\exists x F(x)) \lor G \Leftrightarrow \exists x (F(x) \lor G)$
+- 特例与量词的关系 (小范围到大范围)
+	$\forall x F(x) \Rightarrow F(x)$ ????????????????????????????
+	$F(a) \Rightarrow \exists x F(x)$
+- 量词的否定
+	$\lnot (\forall x F(x)) \Leftrightarrow \exists x \lnot F(x)$
+	$\lnot (\exists x F(x)) \Leftrightarrow \forall x \lnot F(x)$
+- 量词的分配形式
+	设F(x)和G(x)是两谓词公式 则：
+	$\forall x(F(x) \land G(x)) \Leftrightarrow \forall x F(x) \land \forall x G(x)$
+	$\exists x(F(x) \lor G(x)) \Leftrightarrow \exists x F(x) \lor \exists x G(x)$
+	$\forall x F(x) \lor \forall x G(x) \Rightarrow \forall x (F(x) \lor G(x))$ (大并 变 小并)
+	$\exists x (F(x) \land G(x)) \Rightarrow \exists x F(x) \land \exists x G(x)$ (小交 变 大交)
+- 多个量词的处理
 	
+	！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+	$\forall x \forall y F(x,y) \Leftrightarrow \forall y \forall x F(x,y)$
+	$\exists x \exists y F(x,y) \Leftrightarrow \exists y \exists x F(x,y)$
+	$\forall x \forall y F(x,y) \Rightarrow \exists y \forall x F(x,y) \Rightarrow \forall x \exists y F(x,y) \Rightarrow \exists y \exists x F(x,y)$ 
+	
+	
+- 对偶原理
+	假设G是一个仅含$\forall ,\exists ,\lnot ,\land ,\lor$ 运算符号的公式;
+	G的对偶式就是将符号按照下表进行替换
+	PS:要保持原有的运算关系(即先后顺序)
+	- $F\Leftrightarrow G$ iff $F^{*}\Leftrightarrow G^{*}$
+	- $F\Rightarrow G$ iff $G^{*}\Rightarrow F^{*}$ 
+
+| 原符号       |    替换后的符号 |     |
+| :-------- | --------: | --- |
+| $\land$   |    $\lor$ |     |
+| $\lor$    |   $\land$ |     |
+| **T**     |     **F** |     |
+| **F**     |     **T** |     |
+| $\forall$ | $\exists$ |     |
+| $\exists$ | $\forall$ |     |
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
