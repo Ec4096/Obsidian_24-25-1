@@ -277,7 +277,7 @@
 	$\exists x (F(x) \land G(x)) \Rightarrow \exists x F(x) \land \exists x G(x)$ (小交 变 大交)
 - 多个量词的处理
 	
-	！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+	！！
 	$\forall x \forall y F(x,y) \Leftrightarrow \forall y \forall x F(x,y)$
 	$\exists x \exists y F(x,y) \Leftrightarrow \exists y \exists x F(x,y)$
 	$\forall x \forall y F(x,y) \Rightarrow \exists y \forall x F(x,y) \Rightarrow \forall x \exists y F(x,y) \Rightarrow \exists y \exists x F(x,y)$ 
@@ -309,13 +309,58 @@
 
 # 谓词-谓词公式的自然推理
 ## 1. 谓词-谓词公式的自然推理-相关概念的复习
-
-
-
-
-
-
-
+- 相关记号
+	F(x1,x2,...,xn)表示x1,x2,...,xn在公式F中自由出现
+！！
+- 指定规则 **S(Specification)**
+	- 全称指定规则 **US(Universal Specification)**
+		$\forall x F(x) \Rightarrow F(y)$ 
+			y一定不是公式F中出现的约束变量
+			![[Pasted image 20241210133527.png]]
+		$\forall x F(x) \Rightarrow F(c)$
+			c为一个变元常量
+		PS：
+			US规则中的量词的**辖域是整个公式**
+			![[Pasted image 20241210133811.png]]
+		正确的使用
+		![[Pasted image 20241210134015.png]]
+	- 特称指定规则 **ES(Existential Specification)**
+		$\exists x F(x) \Rightarrow F(c)$
+			c是新引入的常元符号
+		PS：
+			ES规则中的量词的**辖域是整个公式**
+			![[Pasted image 20241210134125.png]]
+		正确的使用 
+		![[Pasted image 20241210134140.png]]
+- 推广规则 **G(Generalization)**
+	- 特称推广规则 **EG(Existential Generalizatioin)**
+		$F(c) \Rightarrow \exists y F(y)$
+		$F(x) \Rightarrow \exists y F(y)$
+			y是新引入的变元符号 
+			c是新引入的常元符号
+		PS：
+			![[Pasted image 20241210134802.png]]
+		正确的使用
+		![[Pasted image 20241210134825.png]]
+	- 全称推广规则 **UG(Universal Generalization)**
+		$F(x) \Rightarrow \forall x F(x)$
+			x不在F中约束出现
+		PS：
+			![[Pasted image 20241210135033.png]]
+		正确的使用
+		![[Pasted image 20241210135050.png]]
+- 总结
+	指定规则(US,ES)和推广规则(UG,EG)在**添加量词或者去量词**的时候要注意两点：
+	1 注意**辖域是整个式子**
+	2 注意有**变动的变元不能**在式子中**约束出现**
+- Example
+	- 
+		![[Pasted image 20241210135608.png]]
+		![[Pasted image 20241210135623.png]]
+	- 
+		![[Pasted image 20241210135758.png]]
+		![[Pasted image 20241210135817.png]]
+	
 
 
 
