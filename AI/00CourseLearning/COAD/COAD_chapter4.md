@@ -162,4 +162,13 @@
 	save PC(**当前**的地址) of interrupted instruction
 - SCAUSE (Supervisor-Exception-Cause-Register)
 	save indiction of problem 保存产生异常的原因
-	
+	该寄存器中大多数位未被使用 其中：
+	未定义指令 undefined code编码为(2)
+	硬件故障 编码为(12)
+- 处理异常程序的过程
+	- 使用SEPC存储当前地址
+	- 通过SCAUSE来检索异常处理程序的入口地址
+		- 非法操作是直接退出
+		- 解决异常长须后再将SEPC中存储的地址再还给PC
+		- 停止系统运行 -死机
+		-

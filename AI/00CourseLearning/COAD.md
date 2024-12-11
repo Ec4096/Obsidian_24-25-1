@@ -17,30 +17,6 @@
 
 
 
-
-### 2.3 异常与中断
-- **中断**:
-	From an external I/O controller 由硬件引起的异常
-	主机、外设交互慢 因为主机一直在等外设提供数据
-	外设向主机提出 **中断请求信号**
-- **异常**:
-	软件引起的中断 例如overflowing、未定义的opcode、系统调用syscall
-  - [详细内容2]
-- **解决异常**:
-  - SEPC(Supervisor-Exception-Program-Counter)
-	save PC of interrupted instruction
-  - SCAUSE
-	save indiction of the problem 保存产生异常的原因
-	register 0   1   2  3...31
-	             undefined code(2储存)
-  - 遇到异常程序后 
-	先使用SEPC存储当前地址
-	再通过SCAUSE来检索异常处理程序的入口地址
-		非法操作是直接退出
-		解决异常程序后再将SEPC中存储的地址再还给PC
-		停止系统运行 死机
-	
-	
   - jump to handler
 	0000 0000 1C09 0000hex此地址固定 在RISC-V中
   - IDT 有256条地址(中断服务(异常处理)程序的入口地址) 0-255 操作系统初始化
