@@ -160,4 +160,6 @@
 ## 4.8.2 如何解决异常
 - SEPC (Supervisor-Exception-Program-Counter)
 	save PC(**当前**的地址) of interrupted instruction
-- SCAUSE
+- SCAUSE (Supervisor-Exception-Cause-Register)
+	save indiction of problem 保存产生异常的原因
+	
