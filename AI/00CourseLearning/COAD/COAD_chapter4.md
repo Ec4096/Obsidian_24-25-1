@@ -114,7 +114,7 @@
 			IF/ID flush
 			要增加功能部件
 			原浪费了三个周期
-			可以将EX末尾算出的Zero在MEM阶段提前到ID阶段
+			可以将EX末尾算出的Zero在MEM阶段提前到**ID阶段**
 		1. 动态预测
 		- Branch prediction buffer(缓冲区) 使用**BHT(Branch history table)
 		- BHT
