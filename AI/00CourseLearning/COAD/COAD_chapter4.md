@@ -113,7 +113,7 @@
 			ID/EMX flush
 			IF/ID flush
 			要增加功能部件
-			原浪费了三个周期
+			原浪费了三个周期 在DM阶段才能判断是否要跳转
 			可以将EX末尾算出的Zero在MEM阶段提前到**ID阶段**
 		1. 动态预测
 		- Branch prediction buffer(缓冲区) 使用**BHT(Branch history table)
