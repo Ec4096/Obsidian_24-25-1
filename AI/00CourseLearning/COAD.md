@@ -10,12 +10,6 @@
 # 第四章
 
 
-## 1.0 Title one
-
-
-### 4. 单周期处理器
-	一个CPU只处理一条指令
-	
 
 
 ## 1.0 ALU operation 四位 由fun3和fun7处理得来
