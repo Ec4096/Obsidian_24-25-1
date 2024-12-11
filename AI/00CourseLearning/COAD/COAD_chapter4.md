@@ -1,5 +1,24 @@
 ***chapter4 <处理器>***
 ![[Pasted image 20241105115718.png]]
+# 4.0 ALU基础
+- ALU used for
+	- Load/Store：F = add
+	- Branch：F = subtract
+	- R-type：F depends on opcode
+
+| ALU control | Function |
+| :---------: | :------: |
+|    0000     |   AND    |
+|    0001     |    OR    |
+|    0010     |   Add    |
+|    0110     | Subtract |
+- ALUOp 与 ALU operation
+	ALUOp-2bits
+	ALU operation-4bits
+	由fun3与fun7处理而得(所以由fun3与fun7决定)
+	![[Pasted image 20241023141927.png]]
+
+
 # 4.1 Single core processer
 -  **Datapath**
 	执行操作

@@ -32,12 +32,12 @@
 ## 3. 课堂笔记及总结
 - **chapter1**: [[COAD_chapter1]]
 - **chapter2**: [[COAD_chapter2]]
-- **chapter1**: [[COAD_chapter3]]
-- **chapter1**: [[COAD_chapter1]]
-
+- **chapter3**: [[COAD_chapter3]]
+- **chapter4**: [[COAD_chapter4]]
+- **chapter5**: [[COAD_chapter4]]
 ---
 
-## 3. 讨论与思考
+# 3. 讨论与思考
 - **问题**:
   - [问题1]
   - [问题2]
@@ -47,14 +47,9 @@
 
 ---
 
-## 4. 作业与任务
-- **作业1**: [作业描述]
-  - **截止日期**: [截止日期]
-  - **要求**: [作业要求]
-  
-- **作业2**: [作业描述]
-  - **截止日期**: [截止日期]
-  - **要求**: [作业要求]
+# 4. 陌生词语
+- Pseudo instruction - 伪指令
+- Synchronization - 同步
 
 ---
 

@@ -1,48 +1,4 @@
 
-# 第一节
-
-## 1.0 Title one
-### 1. Pseudo instruction
-	
-# Synchronization
-
-
-# 第四章
-
-
-
-
-## 1.0 ALU operation 四位 由fun3和fun7处理得来
-![[Pasted image 20241023141927.png]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 非易失型存储器(硬盘)：
 1闪存(固态盘)
 2机械硬盘
@@ -173,6 +129,7 @@ CPU与cache联动 求速度
 		解决方法 ：
 		早启动 所需的块内容来了后就立马往下流水
 	cache中的块数减少 映射关系单一 及 太多个主存地址会映射到一个cache index 会导致频繁调度 引起块污染
+
 
 the extra information
 [小科普 | FAT32、NTFS、exFAT？格式化我该选谁？ - 哔哩哔哩 (bilibili.com)](https://www.bilibili.com/opus/134323427145258263)
