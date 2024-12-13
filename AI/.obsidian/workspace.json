@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/COAD.md",
+                "file": "00CourseLearning/COAD/COAD_chapter4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COAD"
+              "title": "COAD_chapter4"
             }
           }
         ]
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde839de9994db22",
+  "active": "b36a3540af8de77a",
   "lastOpenFiles": [
     "00CourseLearning/COAD.md",
     "00CourseLearning/COAD/COAD_chapter5.md",
