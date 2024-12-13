@@ -1,5 +1,9 @@
 ***chapter5 <大而快-层次化存储>***
 # 5.1 Basis
+## 5.1.0 标准术语
+- 带宽 
+	传输数据的字节数/周期数
+
 ## 5.1.1 IEC Standard Prefixes
 
 | Name  | Abbr | Factor   | SI size   |
