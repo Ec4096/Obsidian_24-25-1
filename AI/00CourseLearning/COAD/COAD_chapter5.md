@@ -28,6 +28,30 @@
 - $Cache\Leftrightarrow Memory$  交换数据 以“块”为单位(cache行)
 - $Memory \Leftrightarrow Disk$ 交换数据 以“块”为单位(页page)
 
+## 5.1.4 temp
+- CPU 给出Read/Write 控制信号
+	- Read信号 CPU等待数据
+	- Write信号 CPU给出数据 等待写数据操作完成
+
+# 5.2 SRAM&DRAM
+## 5.1.1 SRAM
+- 易失性存储
+	![[Pasted image 20241213113940.png]]
+- 解释:
+	M3-导通 M1-截止 表示1
+	M3-截止 M1-导通 表示0
+	wl(wordline) 字线
+	bl(bitline) 位线
+## 5.1.2 DRAM
+- 非易失性存储
+	![[Pasted image 20241213114240.png]]
+- 解释:
+	- Storage Capacitor 为1 即为有电荷存在 
+	- 写操作 先将wl连通, 然后bl对Capacitor电容来充电或者放电
+	- 读操作(具有破坏性)先连通wl, 然后查看bl线上是否有微弱电流流过(要经过放大器放大)因为**读取过程**中会**造成电荷流失**,所以还要进行充电操作
+	- 速度慢 -因为需要进行充电放电操作
+
+
 # 3.2 数值操作
 ## 1. 整数
 - 以二进制补码的形式存储数据、机器字长固定、使其可以循环

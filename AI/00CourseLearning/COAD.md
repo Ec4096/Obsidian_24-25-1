@@ -5,14 +5,6 @@
  - 3.2 Read CPU等待数据
 
 
----
-
-![[Pasted image 20241106142946.png]]
-- M3的导通 M1的截止 表示1
-- M3的截止 M1的导通 表示0
-
-wl wordline 字线
-bl bitline 位线
 
 ---
 
