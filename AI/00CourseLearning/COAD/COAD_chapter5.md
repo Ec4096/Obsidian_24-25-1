@@ -24,7 +24,10 @@
 0. CPU
 1. Cache-SRAM 易失性 只需要mos管的电平变化、所以数据交流快
 2. Memory DRAM 易失性
-3. Disk Flash & Meganetic
+3. Disk Flash(闪存一般应用在固态硬盘中) & Meganetic disk 机械硬盘 **非易失性**
+- $Cache\Leftrightarrow Memory$  交换数据 以“块”为单位(cache行)
+- $Memory \Leftrightarrow Disk$ 交换数据 以“块”为单位(页page)
+
 # 3.2 数值操作
 ## 1. 整数
 - 以二进制补码的形式存储数据、机器字长固定、使其可以循环

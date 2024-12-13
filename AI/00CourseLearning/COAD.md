@@ -1,29 +1,10 @@
 
-非易失型存储器(硬盘)：
-1闪存(固态盘)
-2机械硬盘
-
-
-
-
-
 1. CPU给出访存信号
 2. CPU给出Read/Write 控制信号
  - 3.1 Write信号 CPU给出数据 等待写数据操作完成
  - 3.2 Read CPU等待数据
 
 
-
-
-
-
-三级存储系统
-0. CPU
-1. Cache SRAM 易失性 只需要mos管的电平变化、所以数据交流快
-2. Memory DRAM 易失性
-3. disk flash or magnetic机械硬盘 非易失性
-- 1与2交换数据(读写均)以“块”为单位（cache行）
-- 2与3交换数据以“块”为单位（页）
 ---
 
 ![[Pasted image 20241106142946.png]]
