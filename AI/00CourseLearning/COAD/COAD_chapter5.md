@@ -124,7 +124,20 @@
 	部分内容映像(内容一模一样)
 	cache没有地址
 	CPU访存使用的是主存Memory地址
-	主存地址分为：
+	主存地址分为:字节地址 字地址 位地址
+	
+	可以将**主存地址拆分**为:
+	字地址word address(memory的块号) | 块内地址
+		块内地址在32位系统小用两位二进制数表示(因为有四个字节)
+	直接映射
+		cache中的**实际存储位置**(cache中的索引**index**) =
+		Block address(memory的块号) mod Blocks in cache(块数量)
+	进而可以**继续细分主存地址**：
+	tag(标签位) | index(cache块号) | offset(块内地址)
+	在cache中一个基本块block需要存储的数据有：
+	
+	
+	
 	
 
 
