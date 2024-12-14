@@ -120,6 +120,9 @@
 	2. 旋转时间(将**磁盘转半圈**作为average旋转时间)
 	3. 传输数据的时间
 	4. 控制延迟的时间
+
+# 5.4 CPU&cache间的数据交换！！
+# 5.4.1 CPU&cache间的数据交换-基本概念
 - CPU与cache联动 求速度
 	部分内容映像(内容一模一样)
 	cache没有地址
@@ -135,9 +138,20 @@
 	进而可以**继续细分主存地址**：
 	tag(标签位) | index(cache块号) | offset(块内地址)
 	在cache中一个基本块block需要存储的数据有：
-	
-	
-	
-	
+	Valid(有效位) | Tag(标签) | Data(数据(块))
+		PS: Index不在cache中存储,只是人为规定的序号?
+	- cache的真实内存为:
+		n为index的长度
+		$2^{n} \times (Valid有效位大小 + Tag标签字段大小 + Data单个数据块容量)$ 
+	- cache的命名规范：
+		cache的命名规范中一般只考虑**Data数据**的大小
+		Example:
+			Data单个数据块容量为4KiB 那么就称cache为4KiB cache 
+- 冷启动&热启动
+	- 冷启动
+		清理cache
+	- 热启动
+		不清理cache
+- 读数据(笼统的表述一下)
 
 

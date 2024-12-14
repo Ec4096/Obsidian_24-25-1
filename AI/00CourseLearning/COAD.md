@@ -1,16 +1,5 @@
 
 CPU与cache联动 求速度
-	部分内容映像(内容一模一样)
-	cache没有地址
-	CPU访存使用的是主存Memory地址
-	主存地址分为：(字节地址)
-	块号(字地址word address)            |              块内地址
-	块内地址在32位系统下用两位二进制数表示(因为有四个字节)
-	直接映射 
-		cache 中的实际存储位置(cache中的索引index) = 
-		Block address(memory的块号) mod Blocks in cache(块数量)
-	进而可以继续细分主存地址：
-	    tag +(有效位) | index(cache块号) | 块内地址
 	冷启动(清理cache)与热启动(不清cache)
 	读数据： 将memory主存中的数据以块为单位通过检索(高位地址)传送 到cache 此时流水线阻塞 然后CPU从cache中读取数据
 	Hit与Miss
