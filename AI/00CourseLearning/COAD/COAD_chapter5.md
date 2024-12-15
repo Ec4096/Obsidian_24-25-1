@@ -121,8 +121,8 @@
 	3. 传输数据的时间
 	4. 控制延迟的时间
 
-# 5.4 CPU&cache间的数据交换！！
-# 5.4.1 CPU&cache间的数据交换-Block块-基本概念
+# 5.4 CPU&cache&Memory间的数据交换！！
+# 5.4.1 CPU&cache&Memory间的数据交换-Block块-基本概念
 - CPU与cache联动 求速度
 	部分内容映像(内容一模一样)
 	cache没有地址
@@ -168,5 +168,17 @@
 	- 块污染-降低Hit率
 		cache中的**块数较少**,**映射关系单一** 以及 太多个主存地址**映射到一个cache index** 
 		会导致频繁的调度块,引起块污染
-# 5.4.2 CPU&cache间的数据交换-
-
+# 5.4.2 CPU&cache&Memory间的数据交换-读写操作
+- CPU读操作
+	- 根据主存address取得index 找到块号
+	- 查看valid
+		- valid == 0
+			- 缺失  miss
+		- valid == 1
+			- 查看Tag
+				- Tag == addrHigh
+					命中 hit
+				- Tag != addrHigh
+					缺失 miss
+	- hit OR miss
+		- 
