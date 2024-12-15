@@ -180,5 +180,11 @@
 					命中 hit
 				- Tag != addrHigh
 					缺失 miss
+	
 	- hit OR miss
-		- 
+		- hit情况下
+			- 写直达法(写穿透法)
+				数据写入cache的同时也写入write buffer写缓冲(保存等待写入主存的数据)中
+				如果**buffer满**了,CPU**必须停顿流水线**直到buffer中有**空白表项**
+			- 写回法
+				
