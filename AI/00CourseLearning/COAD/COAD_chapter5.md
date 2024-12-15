@@ -187,4 +187,11 @@
 				数据写入cache的同时也写入write buffer写缓冲(保存等待写入主存的数据)中
 				如果**buffer满**了,CPU**必须停顿流水线**直到buffer中有**空白表项**
 			- 写回法
-				
+				只写cache不写主存Mem
+				那么就会出现可能cache中的内容正确 Mem中的内容错误.即主存中未更新
+				所以在cache存储中需要添加**脏位Dirty**标记
+				所以在cache中一个基本块block需要存储的数据更新为：
+				**Dirty(脏位)** | Valid(有效位) | Tag(标签) | Data(数据(块))
+					要覆盖数据时如果**Dirty为1**,那么要将cache数据写回,再调用cache数据
+		- miss情况下(要写的块不在cache中)
+			- 写分配法
