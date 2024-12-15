@@ -198,13 +198,22 @@
 				将块调入cache + 写回法写数据
 			- 写不分配法
 				不调用到cache,**直接写主存**
-## 5.4.2 CPU&cache&Memory间的数据交换-CPU时间&AMAT
+## 5.4.3 CPU&cache&Memory间的数据交换-CPU时间&AMAT
 - CPU时间
-	CPU时间 = (CPU执行的时钟周期数 + **访存stall阻塞周期数**) * 时钟周期
+	$CPU时间 = (CPU执行的时钟周期数 + 访存stall阻塞周期数) \times 时钟周期$
 	- 访存stall阻塞周期数主要包括:
 		- I-cache 指令访存
 		- D-cache 数据访存
 	- 访存stall阻塞周期数(Memory stall cycles)
 		Memory stall cycles
-		= $\frac{Memory accesses}{Program}$
-	
+		= $\frac{Memory accesses}{Program} \times Miss rate \times Miss penalty$
+		= $\frac{instructions}{Program} \times \frac{Misses}{instroctions} \times Miss penalty$
+- AMAT(Average Memory Access Time)平均存储访问时间
+	AMAT = Hit time命中时间 + Miss rate失效率 * Miss penalty失效代价
+- 降低缺失率
+	- 增加块的大小 $Penalty\uparrow 缺失率\downarrow$
+	- 增加相联度
+	- 使用多级cache
+## 5.4.4 CPU&cache&Memory间的数据交换-n相联
+- 全相联
+	主存块可以直接映射
