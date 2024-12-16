@@ -235,7 +235,7 @@
 		![[Pasted image 20241216110148.png]]
 - 全局缺失率
 	多个cache加起来的缺失率
-# 5.5 虚拟机-vritual machine
+# 5.5 虚拟Virtual
 ## 5.4.1 虚拟机-virtual machine
 - 硬件
 	- Host
@@ -256,3 +256,4 @@
 - summary
 	虚拟化会对性能有一定的影响
 	但是对于现代高性能计算机来说可行
+## 5.4.1 虚拟地址-virtual memory
