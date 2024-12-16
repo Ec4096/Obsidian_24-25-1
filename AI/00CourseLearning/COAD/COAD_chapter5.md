@@ -267,4 +267,12 @@
 	Physical address是物理地址(主存Mem地址)
 	Page offset就是页内地址
 	该转换过程由CPU完成
-- 
+- Page Table(在Memory中)!!
+	{VPN}不占用空间存储
+	存储的内容有:
+	Valid(有效位) | PPN 
+	Valid为0 说明该页Page不在内存Memory中
+	![[Pasted image 20241216122624.png]]
+- TLB (Translation Look-aside Buffer)(在cache中)!!
+	
+	
