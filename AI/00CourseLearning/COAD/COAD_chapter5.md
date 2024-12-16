@@ -236,7 +236,7 @@
 - 全局缺失率
 	多个cache加起来的缺失率
 # 5.5 虚拟Virtual
-## 5.4.1 虚拟机-virtual machine
+## 5.5.1 虚拟机-virtual machine
 - 硬件
 	- Host
 		主机Host模仿客户端Guest 操作系统和机器资源
@@ -254,14 +254,14 @@
 		- VMM 操作真实的I/O设备
 			模拟客户端Guest的通用虚拟I/O设备
 - summary
-	虚拟化会对性能有一定的影响
+	虚拟化会对性能有一定的影响2
 	但是对于现代高性能计算机来说可行
 - Memory Layout 内存布局
 	机器会为每个进程(正在运行的程序)分配相应内存
 	![[Pasted image 20241216121415.png]]
 	static data在内存中有分配空间
 	Text中是 程序代码
-## 5.4.1 虚拟地址-virtual memory
+## 5.5.1 虚拟地址-virtual memory
 - Virtual address 与 Physical address转换
 	![[Pasted image 20241216121913.png]]
 	Physical address是物理地址(主存Mem地址)
@@ -330,5 +330,14 @@
 		只能使用写回法 写(因为 stall代价太大)
 		使用全相联 虚拟表号页表
 		对于Virtual来说 使用全相联+LRU
-		
-		
+- 失效(缺失Valid=0)-3C模型
+	- 强制失效(冷启动失效)
+		对于没有在cache中出现的块进行第一次访问产生的缺失
+	- 容量失效(可能在全相联中出现)
+		cache**无法包含**程序执行期间**所需的所有块**导致的失效
+		当某些块**刚被替换出去**,随后**再被调入**,就会发生容量失效
+	- 冲突失效(碰撞失效)
+		在组相联或者直接映射cache中,很多块为了**竞争同一个组**导致的失效
+		即 多个都映射到同一个块/组,写回后就要立马调用??
+# 5.7 可靠性测量Dependability Measures & Hamming SEC Code
+## 5.7.1 可靠性测试Dependability Measures
