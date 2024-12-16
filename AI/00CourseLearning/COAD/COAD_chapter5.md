@@ -341,3 +341,13 @@
 		即 多个都映射到同一个块/组,写回后就要立马调用??
 # 5.7 可靠性测量Dependability Measures & Hamming SEC Code
 ## 5.7.1 可靠性测试Dependability Measures
+- 基本术语
+	- MTTF 平均无故障时间
+	- AFR 年度失效率
+	- MTTR 平均修复时间
+	- MTBF 平均失效间隔时间
+	- 衡量标准之间的关系
+		MTBF = MTTF + MTTR
+		可用性 Availability = $\frac{MTTF}{MTTF + MTTR}$
+			可用性是指系统正常工作时间在连续两次服务中断间隔时间中所占的比例
+## 5.7.2 可靠性测试Dependability Measures
