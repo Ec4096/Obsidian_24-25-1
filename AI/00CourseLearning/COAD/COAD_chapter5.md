@@ -308,7 +308,7 @@
 	- PT页表
 	- PTE页表项
 - 主存Memory的保护
-	- 不同的任务可以共享其部分虚拟任务空间
+	- 不同的任务(进程)可以共享其部分虚拟任务空间
 		需要操作系统OS的协助
 	- 操作系统OS保护的硬件支持
 		- Privileged supervisor mode特权监督模式(aka kernel mode)
