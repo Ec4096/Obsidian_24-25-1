@@ -276,5 +276,13 @@
 - TLB (Translation Look-aside Buffer)(在cache中)!!
 	![[Pasted image 20241216161012.png]]
 	PS:
-		在TLB中 需要
+		在TLB是cache中 必须要包括**Tag标签字段**
+		其中**页大小** == $2^{offset}$ !!
+	- 在更新之后的**页表Page Table**!!
+		- VPN不需要占存储空间 仅作为index来搜索PTE页表项
+		所以页表项PTE中真正所需要存储的内容有:
+		PPN(物理页号) | Valid(有效位) | Dirty(脏位) | Reference(引用位)
+		- 解释:
+			- valid为0 那么发生缺页故障异常
+				调用软件
 	
