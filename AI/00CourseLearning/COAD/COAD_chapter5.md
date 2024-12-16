@@ -133,6 +133,7 @@
 	字地址word address(memory的块号) | 块内地址
 		块内地址在32位系统小用两位二进制数表示(因为有四个字节)
 	直接映射
+		![[Pasted image 20241216110106.png]]
 		cache中的**实际存储位置**(cache中的索引**index**) =
 		Block address(memory的块号) mod Blocks in cache(块数量)
 	进而可以**继续细分主存地址**：
@@ -230,6 +231,8 @@
 		- 最近最少使用LRU(Least Recently Used)
 			**被替换**的数据块时**最长时间未被使用**的
 		- 随机算法
+	Example:
+		![[Pasted image 20241216110148.png]]
 - 全局缺失率
 	多个cache加起来的缺失率
 	
