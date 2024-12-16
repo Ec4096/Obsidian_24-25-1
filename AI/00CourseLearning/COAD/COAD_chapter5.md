@@ -267,12 +267,15 @@
 	Physical address是物理地址(主存Mem地址)
 	Page offset就是页内地址
 	该转换过程由CPU完成
+# 5.6 cache(TLB)&Memory(PT)&Disk间的数据交换-Page
+## 5.6.1 页表PT
 - Page Table(在Memory中)!!
 	{VPN}不占用空间存储
 	存储的内容有:
 	Valid(有效位) | PPN 
 	Valid为0 说明该页Page不在内存Memory中
 	![[Pasted image 20241216122624.png]]
+## 5.6.2 更新后的页表PT&快表TLB
 - TLB (Translation Look-aside Buffer)(在cache中)!!
 	![[Pasted image 20241216161012.png]]
 	内存**Mem中的页的大小**与**硬盘Disk**中的大小**相同**
@@ -295,7 +298,12 @@
 - 表项太多-解决方案
 	- 反置页表
 	- 多级页表
-		用的多的页表放在内存Mem中,用的少的放在硬盘Disk中
+		用的多的页表放在主存Mem中,用的少的放在硬盘Disk中
+		比如0级页表放在主存Mem中,其他级的页表放在硬盘Disk中
 	- TLB快表
 		快表找不到的,去页表中查找,并将其表项放在TLB中
 		只允许一个进程占用处理器CPU 使用TLB
+## 5.6.3 cache(TLB)&Memory(PT)&Disk间的数据交换-Page-Summary
+- 基本概念
+	- PT页表
+	- PTE页表项
