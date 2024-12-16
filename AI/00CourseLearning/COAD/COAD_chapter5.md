@@ -329,4 +329,6 @@
 	- $2Memory\Leftrightarrow 3Disk$ 
 		只能使用写回法 写(因为 stall代价太大)
 		使用全相联 虚拟表号页表
+		对于Virtual来说 使用全相联+LRU
+		
 		
