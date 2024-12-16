@@ -238,7 +238,21 @@
 # 5.5 虚拟机-vritual machine
 ## 5.4.1 虚拟机-virtual machine
 - 硬件
+	- Host
+		主机Host模仿客户端Guest 操作系统和机器资源
+		- 改进了多个客户端guests的隔离
+		- 避免了安全性和可靠性问题
+		- 辅助资源共享
 	地址转换
 	存储介质
 - 软件
-	
+	- Virtual Machine Monitor虚拟机监视器(管理程序)
+		- 将虚拟地址映射为物理地址(主存 | I/O devices | CPUs)
+		- 客户端Guest的代码在本地机上以用户模式运行
+			根据特权指令和对受保护资源的访问捕获到VMM
+		- 客户端的操作系统 Guest OS 可能与主机操作系统 Host OS不同
+		- VMM 操作真实的I/O设备
+			模拟客户端Guest的通用虚拟I/O设备
+- summary
+	虚拟化会对性能有一定的影响
+	但是对于现代高性能计算机来说可行
