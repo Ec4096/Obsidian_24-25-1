@@ -256,4 +256,15 @@
 - summary
 	虚拟化会对性能有一定的影响
 	但是对于现代高性能计算机来说可行
+- Memory Layout 内存布局
+	机器会为每个进程(正在运行的程序)分配相应内存
+	![[Pasted image 20241216121415.png]]
+	static data在内存中有分配空间
+	Text中是 程序代码
 ## 5.4.1 虚拟地址-virtual memory
+- Virtual address 与 Physical address转换
+	![[Pasted image 20241216121913.png]]
+	Physical address是物理地址(主存Mem地址)
+	Page offset就是页内地址
+	该转换过程由CPU完成
+- 
