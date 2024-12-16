@@ -235,4 +235,5 @@
 		![[Pasted image 20241216110148.png]]
 - 全局缺失率
 	多个cache加起来的缺失率
-	
+# 5.5 虚拟机-vritual machine
+## 5.4.1 CPU&cache&Memory间的数据交换-Block块-基本概念
