@@ -274,5 +274,7 @@
 	Valid为0 说明该页Page不在内存Memory中
 	![[Pasted image 20241216122624.png]]
 - TLB (Translation Look-aside Buffer)(在cache中)!!
-	
+	![[Pasted image 20241216161012.png]]
+	PS:
+		在TLB中 需要
 	
