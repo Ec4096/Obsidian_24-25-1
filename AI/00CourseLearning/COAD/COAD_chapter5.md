@@ -275,14 +275,19 @@
 	![[Pasted image 20241216122624.png]]
 - TLB (Translation Look-aside Buffer)(在cache中)!!
 	![[Pasted image 20241216161012.png]]
+	内存**Mem中的页的大小**与**硬盘Disk**中的大小**相同**
 	PS:
 		在TLB是cache中 必须要包括**Tag标签字段**
 		其中**页大小** == $2^{offset}$ !!
 	- 在更新之后的**页表Page Table**!!
+		- 页表在进程周期中是常驻内存
 		- VPN不需要占存储空间 仅作为index来搜索PTE页表项
 		所以页表项PTE中真正所需要存储的内容有:
 		PPN(物理页号) | Valid(有效位) | Dirty(脏位) | Reference(引用位)
 		- 解释:
 			- valid为0 那么发生缺页故障异常
-				调用软件
+				调用异常处理软件 将硬盘Disk中的内容调到主存Mem中 使用全相联映射 再更改页表中的内容
+			- Reference应用位 又可以称为use使用位
+				定期将应用位清零,然后再重新记录,用于替换策略
+			
 	
