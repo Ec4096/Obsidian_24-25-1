@@ -326,4 +326,7 @@
 	* $1Cache\Leftrightarrow 2Memory$
 		可以使用写直达法和写回法
 		可以使用直接映射 | 组相联 | 全相联
-	
+	- $2Memory\Leftrightarrow 3Disk$ 
+		只能使用写回法 写(因为 stall代价太大)
+		使用全相联 虚拟表号页表
+		
