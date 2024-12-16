@@ -313,4 +313,4 @@
 	- 操作系统OS保护的硬件支持
 		- Privileged supervisor mode特权监督模式(aka kernel mode)
 	- 操作系统(0级栈)和用户使用的栈(3级栈)不允许交叉使用
-	- 
+	- 只有在内核态下
