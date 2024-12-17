@@ -327,7 +327,7 @@
 		![[Pasted image 20241210134015.png]]
 	- 特称指定规则 **ES(Existential Specification)**
 		$\exists x F(x) \Rightarrow F(c)$
-			c是新引入的常元符号
+			c是**新引入**的常元符号
 		PS：
 			ES规则中的量词的**辖域是整个公式**
 			![[Pasted image 20241210134125.png]]

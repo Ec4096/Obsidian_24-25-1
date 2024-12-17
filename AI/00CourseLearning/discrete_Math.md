@@ -8,7 +8,7 @@
 ## 1.0 量词
 1. title 1.1
 	content1.1
-	![[Pasted image 20240925162432.png]]
+	![[Pasted image 2024092516232.png]]
 2. title 1.2
 	content1.2
 	![[Pasted image 20240925162752.png]]
