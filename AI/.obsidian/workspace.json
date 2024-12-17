@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/AiIntroduction/Untitled.md",
+                "file": "00CourseLearning/AiIntroduction/AiIntro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "AiIntro"
             }
           }
         ]
@@ -126,10 +126,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00CourseLearning/AiIntroduction/Untitled.md"
+                "file": "00CourseLearning/AiIntroduction/AiIntro.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of AiIntro"
             }
           },
           {
@@ -189,7 +189,7 @@
   "active": "dde839de9994db22",
   "lastOpenFiles": [
     "00CourseLearning/DM/DM_2_1_集合.md",
-    "00CourseLearning/AiIntroduction/Untitled.md",
+    "00CourseLearning/AiIntroduction/AiIntro.md",
     "00CourseLearning/AiIntroduction",
     "00CourseLearning/Untitled.md",
     "00CourseLearning/黄河史.md",
