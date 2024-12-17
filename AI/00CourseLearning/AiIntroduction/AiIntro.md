@@ -70,9 +70,14 @@ AiIntro
 	为了使输入输出图尺寸一致那么padding的计算公式为:
 	$padding = (sizeFilter - 1)/2$
 	所以size_filter通常为奇数
-- channel
+- channel通道数
 	当 channel == 1时 filter可以被当作卷积核
 	但一般情况下 有几个channel,then filter中就有多少个卷积核
-- 计算
+- 计算输出特征图的大小
+	- 设输入特征图为$a\times a$ | 卷积核为$b\times b$ | 步幅stride = c | 填充padding = d
+	then size_output = $\frac{a+2d-b}{c} + 1$
+- CSDN链接
+	[CNN卷积神经网络中的stride、padding、channel以及特征图尺寸的计算_卷积神经网络stide-CSDN博客](https://blog.csdn.net/m0_54487331/article/details/112846015)
+## 00.2
 
 
