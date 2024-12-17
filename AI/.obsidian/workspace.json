@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/DM/DM_2_1_集合.md",
+                "file": "00CourseLearning/DM/DM_1_logic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DM_2_1_集合"
+              "title": "DM_1_logic"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e3f3eef61cbc0812",
@@ -127,10 +126,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00CourseLearning/DM/DM_2_1_集合.md"
+                "file": "00CourseLearning/DM/DM_1_logic.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DM_2_1_集合"
+              "title": "Outline of DM_1_logic"
             }
           },
           {
@@ -171,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,34 +188,33 @@
   },
   "active": "dde839de9994db22",
   "lastOpenFiles": [
+    "00CourseLearning/黄河史.md",
+    "00CourseLearning/COAD.md",
+    "00CourseLearning/discrete_Math.md",
+    "00CourseLearning/DM/DM_1_logic.md",
+    "00CourseLearning/DM/DM_2_1_集合.md",
+    "00CourseLearning/DM/DM_2_2_关系.md",
+    "00CourseLearning/DM.md",
     "00_attachment/Pasted image 20241217190501.png",
     "00_attachment/Pasted image 20241217190021.png",
     "00_attachment/Pasted image 20241217174003.png",
     "00_attachment/Pasted image 20241217132850.png",
     "00_attachment/Pasted image 20241217132004.png",
-    "00CourseLearning/DM/DM_2_2_关系.md",
     "00CourseLearning/COAD/COAD_chapter5.md",
-    "00CourseLearning/DM/DM_2_1_集合.md",
     "00CourseLearning/DM/DM_2_2_函数.md",
-    "00CourseLearning/COAD.md",
     "00_attachment/Pasted image 20241216161012.png",
     "00_attachment/Pasted image 20241216122624.png",
     "00_attachment/Pasted image 20241216121913.png",
     "00_attachment/Pasted image 20241216122319.png",
     "00_attachment/Pasted image 20241216121415.png",
-    "00_attachment/Pasted image 20241216110148.png",
     "00CourseLearning/COAD/COAD_chapter4.md",
     "00CourseLearning/COAD/COAD_chapter1.md",
     "00CourseLearning/COAD/COAD_chapter3.md",
     "00CourseLearning/COAD/COAD_chapter2.md",
     "00CourseLearning/COAD/COAD.md",
-    "00CourseLearning/discrete_Math.md",
-    "00CourseLearning/黄河史.md",
     "00CourseLearning/DM/DiscreteMath.md",
-    "00CourseLearning/DM/DM_1_logic.md",
     "00Notes/Huawei-ict.md",
     "00_PLAN/THEMorningPlan.md",
-    "00CourseLearning/DM.md",
     "00CourseLearning/DM",
     "00Notes/test01.md",
     "00Notes/test 02.md",
