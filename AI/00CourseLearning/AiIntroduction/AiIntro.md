@@ -62,6 +62,7 @@ AiIntro
 		减少输入参数的数量
 - filter-过滤器
 	filter本质上是卷积核的集合
+	总卷积和的数量 = $C_{in} \times C_{out}$ 
 - padding-填充
 	在输入特征图的边缘添加一定数目的像素
 	- 目的
