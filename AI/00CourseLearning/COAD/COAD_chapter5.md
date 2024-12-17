@@ -351,3 +351,15 @@
 		可用性 Availability = $\frac{MTTF}{MTTF + MTTR}$
 			可用性是指系统正常工作时间在连续两次服务中断间隔时间中所占的比例
 ## 5.7.2 可靠性测试Dependability Measures
+- 校验
+	- $Mem \rightarrow CPU$ 奇偶校验
+	- $Disk \rightarrow Mem$ Hamming校验 / CRC(循环优于校验)
+	- 基本概念
+		- 在ECC Hamming纠错码中**最低位为1号位**
+		- $2^{n}$ 为奇偶校验位$p_{n}$
+		- 奇偶校验位为**偶数0**表示**没有错误**
+		- 当校验位**全为0**表示**没有错误**
+		- 如何定位错误的位
+			- Example
+				奇偶校验位2和8为1
+				那么错误位发生在(2+8) = 10号位
