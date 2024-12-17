@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/AiIntroduction/AiIntro.md",
+                "file": "00Tree/Extra/LoRA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AiIntro"
+              "title": "LoRA"
             }
           }
         ]
@@ -126,10 +126,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00CourseLearning/AiIntroduction/AiIntro.md"
+                "file": "00Tree/Extra/LoRA.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AiIntro"
+              "title": "Outline of LoRA"
             }
           },
           {
@@ -188,8 +188,14 @@
   },
   "active": "dde839de9994db22",
   "lastOpenFiles": [
-    "00CourseLearning/DM/DM_2_1_集合.md",
     "00CourseLearning/AiIntroduction/AiIntro.md",
+    "00Tree/Extra/LoRA.md",
+    "00Tree/Extra/风格迁移.md",
+    "00Tree/Extra/GAN.md",
+    "00Tree/AIGC.md",
+    "00Tree/Extra",
+    "00_PLAN/THEMorningPlan.md",
+    "00CourseLearning/DM/DM_2_1_集合.md",
     "00CourseLearning/AiIntroduction",
     "00CourseLearning/Untitled.md",
     "00CourseLearning/黄河史.md",
@@ -217,15 +223,10 @@
     "00CourseLearning/COAD/COAD.md",
     "00CourseLearning/DM/DiscreteMath.md",
     "00Notes/Huawei-ict.md",
-    "00_PLAN/THEMorningPlan.md",
     "00CourseLearning/DM",
     "00Notes/test01.md",
     "00Notes/test 02.md",
     "00Notes/Stanford CS.md",
-    "00Notes/ML_Lihongyi.md",
-    "00Notes/Linux.md",
-    "00Notes/LaTeX.md",
-    "00Notes/AI导论.md",
     "00_PLAN",
     "Untitled.canvas",
     "00PythonGrammar",
@@ -234,7 +235,6 @@
     "00网页",
     "00CourseLearning/COAD",
     "00IAE",
-    "00CourseLearning",
     "Untitled 1.canvas",
     "未命名.canvas"
   ]
