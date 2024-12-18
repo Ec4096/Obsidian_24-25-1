@@ -68,17 +68,37 @@ THEMorningPlan
 2024_12_06_Fri
 17:58
 # The Major Task
-- [ ] 完成华为ict harmony认证测试
-- [ ] 复习 参加第二天的竞赛
-- [ ] 完成对于离散第二章的总结
+- [x] 完成华为ict harmony认证测试 ✅ 2024-12-18
+- [x] 复习 参加第二天的竞赛 ✅ 2024-12-18
+- [x] 完成对于离散第二章的总结 ✅ 2024-12-18
 
 # The Second Task
-- [ ] 完成计算机组成第五章的总结
-- [ ] 完成计算机组成的第五章作业
+- [x] 完成计算机组成第五章的总结 ✅ 2024-12-18
+- [x] 完成计算机组成的第五章作业 ✅ 2024-12-18
 
 # The Extra Task
-- [ ] 复习大物本学期第一章所学的内容
+- [x] 复习大物本学期第一章所学的内容 ✅ 2024-12-18
 - [ ] 2
+
+# The Attach Completed Task
+- [ ] 1
+- [ ] 2
+
+
+THEMorningPlan
+2024_12_18_Wed
+10:04
+# The Major Task
+- [ ] 1完成离散关系&关系运算的总结
+- [ ] 2完成离散图的第一次作业
+
+# The Second Task
+- [ ] 1复习大物第一第二章
+- [ ] 2总结复习概统第一章
+
+# The Extra Task
+- [ ] 1复习计组
+- [ ] 2调整train策略
 
 # The Attach Completed Task
 - [ ] 1
