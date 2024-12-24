@@ -41,9 +41,9 @@ B班不讲的内容:
 ---
 
 ## 4. 课堂笔记及总结
-- **chapter1**: [[DM_1_logic]]
-- **chapter2**: [[COAD_chapter2]]
-- **chapter1**: [[COAD_chapter3]]
+- **chapter1&2逻辑**: [[DM_1_logic]]
+- **chapter2&3&4&6|集合&关系&函数**: [[DM_2_1_集合]][[DM_2_2_关系]][[DM_2_3_函数]]
+- **chapter7&8基数&群论**: [[DM_3_1_基数]]
 - **chapter1**: [[COAD_chapter1]]
 
 ---
