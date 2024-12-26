@@ -20,6 +20,8 @@
 	```python
 	python3 preprocess.py config/LJSpeech/preprocess.yaml
 ```
+- PS
+	在上述过程之前要核对检查，config文件夹下所有文件中有关路径的设置
 ## 4. 训练
 - 接下来就是对于模型的训练
 	```python
@@ -32,4 +34,11 @@
 	```python
 	tensorboard --logdir output/log/LJSpeech
 ```
-
+- Loss曲线&Mel频谱
+	![[Pasted image 20241226154534.png]]
+	![[Pasted image 20241226154551.png]]
+## 6. 生成音频
+- 首先要设置ID以及对应音频的文本
+	```python
+	python3 synthesize.py --text "大家好" --speaker_id SPEAKER_ID --restore_step 600000 --mode single -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
+```
