@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/DM/DM_3_2_群论.md",
+                "file": "00CourseLearning/AiIntroduction/FastSpeech2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DM_3_2_群论"
+              "title": "FastSpeech2"
             }
           }
         ]
@@ -189,9 +189,11 @@
   },
   "active": "dde839de9994db22",
   "lastOpenFiles": [
+    "00CourseLearning/AiIntroduction/AiIntro.md",
+    "00CourseLearning/AiIntroduction/FastSpeech2.md",
+    "00CourseLearning/DM/DM_3_2_群论.md",
     "00_attachment/Pasted image 20241226121843.png",
     "00CourseLearning/DM/DM_2_3_函数.md",
-    "00CourseLearning/DM/DM_3_2_群论.md",
     "00_attachment/Pasted image 20241226121152.png",
     "00_attachment/Pasted image 20241226120420.png",
     "00_attachment/Pasted image 20241226120308.png",
@@ -203,7 +205,6 @@
     "00_attachment/Pasted image 20241226114650.png",
     "00_attachment/Pasted image 20241226114533.png",
     "00_attachment/Pasted image 20241226114342.png",
-    "00_attachment/Pasted image 20241226113935.png",
     "00CourseLearning/DM/DM_3_1_基数.md",
     "00CourseLearning/DM/DiscreteMath.md",
     "00CourseLearning/COAD/COAD_chapter2.md",
@@ -221,7 +222,6 @@
     "00Notes/ML_Lihongyi.md",
     "00_PLAN/THEMorningPlan.md",
     "00Tree/Extra/LoRA.md",
-    "00CourseLearning/AiIntroduction/AiIntro.md",
     "00Tree/Extra/风格迁移.md",
     "00Tree/Extra/GAN.md",
     "00Tree/AIGC.md",
