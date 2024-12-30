@@ -126,10 +126,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00CourseLearning/DM/DM_3_1_基数.md"
+                "file": "00_PLAN/THEMorningPlan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DM_3_1_基数"
+              "title": "Outline of THEMorningPlan"
             }
           },
           {
@@ -190,6 +190,8 @@
   "active": "dde839de9994db22",
   "lastOpenFiles": [
     "00CourseLearning/DM/DM_3_2_群论.md",
+    "00_PLAN/THEMorningPlan.md",
+    "template/PLANtemplate.md",
     "00CourseLearning/DM/DM_2_3_函数.md",
     "00CourseLearning/DM/DM_3_1_基数.md",
     "00_attachment/Pasted image 20241229212841.png",
@@ -220,7 +222,6 @@
     "00IAE/12.20.md",
     "00JSrg/Re_ML_Lihongyi.md",
     "00Notes/ML_Lihongyi.md",
-    "00_PLAN/THEMorningPlan.md",
     "00Tree/Extra/LoRA.md",
     "00Tree/Extra/风格迁移.md",
     "00Tree/Extra/GAN.md",

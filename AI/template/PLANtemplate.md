@@ -1,18 +1,16 @@
-{{title}}
-{{date}}
-{{time}}
-# The Major Task
+# {{title}}-{{date}}-{{time}}
+## The Major Task
 - [ ] 1
 - [ ] 2
 
-# The Second Task
+## The Second Task
 - [ ] 1
 - [ ] 2
 
-# The Extra Task
+## The Extra Task
 - [ ] 1
 - [ ] 2
 
-# The Attach Completed Task
+## The Attach Completed Task
 - [ ] 1
 - [ ] 2
