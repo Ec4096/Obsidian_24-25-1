@@ -1,11 +1,4 @@
 ***chapter6 <并行处理 >***
-# 7.1 Basis
-# 7.1.0 标准术语
-- 带宽 Bandwidth
-	传输数据的字节数/周期数
-
-- 总线连接串口-键盘鼠标
-- 总线连接设备接口-声卡|显卡|网卡
 # 7.0 前述
 对于并行处理我们可以从两个层面考虑
 - 硬件层面
@@ -20,4 +13,25 @@
 		多条指令同时执行
 	- PS
 		单发射CPI = 1
-- 
+- 问题
+	- 负载均衡 <任务的划分到子任务>
+	- 协调 <同步(任务之间)保证正确性>
+	- 交流协调
+# 7.1 Basis
+# 7.1.0 标准术语
+- 带宽 Bandwidth
+	传输数据的字节数/周期数
+
+- 总线连接串口-键盘鼠标
+- 总线连接设备接口-声卡|显卡|网卡
+
+# 7.2 Amdahl定律
+- 最基本的公式
+	$T_{improved} =  \frac{T_{affected}}{improved factor优化量} + T_{unaffected}$
+- 公式推导
+	$Speed = \frac{T_{old}}{T_{new}}$
+	$Speed = \frac{T_{old}}{T_{old} - T_{affected} + \frac{T_{affected}}{n优化量}}$
+	对于上式分子分母同时除$T_{old}$
+	$Speed = \frac{1}{1 - F + \frac{F}{n优化量}}$
+	其中$F = \frac{T_{affected}}{T_{old}}$
+	
