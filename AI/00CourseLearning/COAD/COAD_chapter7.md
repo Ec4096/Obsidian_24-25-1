@@ -53,4 +53,9 @@
 		初衷是为了把控制单元的成本平摊到数个执行单元上
 		减少了指令带宽和空间
 	- MIMD
-		
+		SPMD(Single Program Mutiple Data)
+		一个可以并行的处理器 在MIMD中
+		对于不同处理器提供状态代码
+
+- Vector Processors向量处理器架构
+	- 向量存储器
