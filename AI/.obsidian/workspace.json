@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/DM/DM_3_2_群论.md",
+                "file": "00CourseLearning/DM/DM_3_1_基数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DM_3_2_群论"
+              "title": "DM_3_1_基数"
             }
           }
         ]
@@ -190,6 +190,9 @@
   },
   "active": "dde839de9994db22",
   "lastOpenFiles": [
+    "00CourseLearning/DM/DM_3_2_群论.md",
+    "00_attachment/Pasted image 20241230202619.png",
+    "00_attachment/Pasted image 20241230202351.png",
     "00_attachment/Pasted image 20241230195730.png",
     "00CourseLearning/COAD/COAD_chapter7.md",
     "00CourseLearning/COAD/COAD_chapter6.md",
@@ -199,7 +202,6 @@
     "00CourseLearning/COAD/COAD.md",
     "00CourseLearning/DM/DM_2_3_函数.md",
     "00_PLAN/THEMorningPlan.md",
-    "00CourseLearning/DM/DM_3_2_群论.md",
     "template/PLANtemplate.md",
     "00CourseLearning/DM/DM_3_1_基数.md",
     "00_attachment/Pasted image 20241229212841.png",
@@ -211,9 +213,6 @@
     "00CourseLearning/AiIntroduction/AiIntro.md",
     "00_attachment/Pasted image 20241226121843.png",
     "00_attachment/Pasted image 20241226121152.png",
-    "00_attachment/Pasted image 20241226120420.png",
-    "00_attachment/Pasted image 20241226120308.png",
-    "00_attachment/Pasted image 20241226120115.png",
     "00CourseLearning/DM/DM_2_1_集合.md",
     "00CourseLearning/DM/DiscreteMath.md",
     "00CourseLearning/COAD/COAD_chapter2.md",
