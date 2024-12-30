@@ -34,4 +34,6 @@
 	对于上式分子分母同时除$T_{old}$
 	$Speed = \frac{1}{1 - F + \frac{F}{n优化量}}$
 	其中$F = \frac{T_{affected}}{T_{old}}$
+- 基本术语
+	Scalars-标量-离散的数据
 	
