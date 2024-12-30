@@ -109,4 +109,15 @@
 
 - GPU<协处理器>
 - 最初是对于图像进行处理
-	
+	对于三角形顶点计算-栅格化数据(3D->2D并有立体感)
+- 多线程并行
+	- CPU-阻塞
+	- GPU-切换
+	CUDA并行编程语言系统 连接CPU与GPU
+	Direct X，OpenGL直接与硬件相联
+
+
+- NVIDIA Fermi架构
+- Multiple SIMD SM流处理器
+- 结构
+	每个SM有2K
