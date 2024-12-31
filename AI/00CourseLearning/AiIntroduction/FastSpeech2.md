@@ -10,9 +10,11 @@ PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱
 	torch == 2.4.1+cu118
 	torchaudio == 2.4.1+cu118
 	torchvision == 0.19.1+cu118
+
 ## 2. 数据&预训练模型的下载
 - 下载aishell3并解压打开
 - 下载AISHELL3_600000.pth.tar
+
 ## 3. 数据预处理
 - 首先对齐语料库
 	```python
@@ -25,6 +27,7 @@ PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱
 - PS
 	在上述过程之前要核对检查，config文件夹下所有文件中有关路径的设置
 	包括corpus_path，lexicon_path，raw_path，preprocessed_path等
+
 ## 4. 训练
 - 接下来就是对于模型的训练
 	```python
@@ -32,19 +35,22 @@ PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱
 	```
 	我大概训练了38h左右
 	跑完了90k的数据
+
 ## 5. 可视化&评估
 - 使用Tensorboard来查看
 	```python
 	tensorboard --logdir output/log
 ```
+
 - Loss曲线&Mel频谱
-	![[Pasted image 20241226154534.png]]
-	![[Pasted image 20241226154551.png]]
+
+
 ## 6. 生成音频
 - 首先要设置ID以及对应音频的文本
 	```python
 	python3 synthesize.py --text "大家好" --speaker_id SPEAKER_ID --restore_step 600000 --mode single -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
 ```
+
 # 相关收获
 ## 1. 对于.pth.tar文件的了解
 之前对于模型的训练最后保存结果的后缀大多都为.pth
