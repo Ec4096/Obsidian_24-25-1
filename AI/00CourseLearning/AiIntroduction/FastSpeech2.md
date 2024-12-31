@@ -1,4 +1,3 @@
-PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱放在总文件夹下了。
 # 难点分析
 - 总述,
 	本次实验可以按照README.md中的流程走
@@ -17,12 +16,12 @@ PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱
 
 ## 3. 数据预处理
 - 首先对齐语料库
-	```python
-	python3 prepare_align.py config/AISHELL3/preprocess.yaml
+```python
+python3 prepare_align.py config/AISHELL3/preprocess.yaml
 ```
 -  其次进行数据预处理，进行数据从原始语音数据和文本数据到模型训练所需格式转换
-	```python
-	python3 preprocess.py config/AISHELL3/preprocess.yaml
+```python
+python3 preprocess.py config/AISHELL3/preprocess.yaml
 ```
 - PS
 	在上述过程之前要核对检查，config文件夹下所有文件中有关路径的设置
@@ -30,25 +29,26 @@ PS：Markdown导出pdf时会有图片显示问题，我将Loss曲线和Mel频谱
 
 ## 4. 训练
 - 接下来就是对于模型的训练
-	```python
-	python3 train.py -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
-	```
+```python
+python3 train.py -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
+```
+- 
 	我大概训练了38h左右
 	跑完了90k的数据
 
 ## 5. 可视化&评估
 - 使用Tensorboard来查看
-	```python
-	tensorboard --logdir output/log
+```python
+tensorboard --logdir output/log
 ```
-
 - Loss曲线&Mel频谱
-
+- Loss曲线![[Pasted image 20241231234056.png]]
+- Mel频谱![[Pasted image 20241231234127.png]]
 
 ## 6. 生成音频
 - 首先要设置ID以及对应音频的文本
-	```python
-	python3 synthesize.py --text "大家好" --speaker_id SPEAKER_ID --restore_step 600000 --mode single -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
+```python
+python3 synthesize.py --text "大家好" --speaker_id SPEAKER_ID --restore_step 600000 --mode single -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yaml -t config/AISHELL3/train.yaml
 ```
 
 # 相关收获
