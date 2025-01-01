@@ -9,7 +9,6 @@
 	torch == 2.4.1+cu118
 	torchaudio == 2.4.1+cu118
 	torchvision == 0.19.1+cu118
-
 ## 2. 数据&预训练模型的下载
 - 下载aishell3并解压打开
 - 下载AISHELL3_600000.pth.tar
@@ -41,9 +40,12 @@ python3 train.py -p config/AISHELL3/preprocess.yaml -m config/AISHELL3/model.yam
 ```python
 tensorboard --logdir output/log
 ```
-- Loss曲线&Mel频谱
 - Loss曲线![[Pasted image 20241231234056.png]]
 - Mel频谱![[Pasted image 20241231234127.png]]
+
+
+
+
 
 ## 6. 生成音频
 - 首先要设置ID以及对应音频的文本
