@@ -123,4 +123,12 @@ Amdahl定律，向量指令，GPU
 	Multiple SIMD SM流处理器即SIMD处理器
 	线程块调度器硬件 为多线程SIMD处理器分配线程块
 - 结构
+	每个线程的SIMD指令宽度为32
+	可以映射到16个SIMD通道
+	所以线程中的每个SIMD指令需要两个周期才能完成 
+	且SIMD指令的每个线程都是同步执行的
+	s
 	每个SM包含32各CUDA Kernel单核处理器
+	这32个core分布如下
+	
+	
