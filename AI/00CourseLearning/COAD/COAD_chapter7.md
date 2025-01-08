@@ -120,7 +120,7 @@ Amdahl定律，向量指令，GPU
 
 - NVIDIA Fermi架构
 - GPU是由多线程SIMD处理器组成的MIMD
-	Multiple SIMD SM流处理器即SIMD处理器
+	Multiple SIMD SM流处理器即 SIMD处理器 Streaming Multiprocessor (SM)
 	线程块调度器硬件 为多线程SIMD处理器分配线程块
 - 调度器
 	- 线程块调度器
@@ -141,6 +141,19 @@ Amdahl定律，向量指令，GPU
 	一个多线程SIMD处理器 就一共包含16个线程 32k个32bits寄存器
 	
 	每个SM包含32各CUDA Kernel单核处理器
+	每个core有子集的共享Memory，栈，与一级cache
 	这32个core分布如下
-	
+	- 有16个core
+	- 有16个core
+	- 有16个读写单元
+	- 有四个 SFU浮点数运算
+	- shared Memory
+	多个SM共用2级cache
+- 线程Thread | 线程束warp | 线程块block | 线程网络grid
+	32个线程 构成 1个线程束
+	其中多线程SIMD 调度是以warp为单位的
+- GPU的整体结构
+	- Cache
+	- 两个warp
+	- 两个Dispatch Unit调度单元
 	
