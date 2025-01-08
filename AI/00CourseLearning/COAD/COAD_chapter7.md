@@ -146,14 +146,13 @@ Amdahl定律，向量指令，GPU
 	- 有16个core
 	- 有16个core
 	- 有16个读写单元
-	- 有四个 SFU浮点数运算
+	- 有四个 SFU特殊函数单元(正弦函数)
 	- shared Memory
 	多个SM共用2级cache
 - 线程Thread | 线程束warp | 线程块block | 线程网络grid
 	32个线程 构成 1个线程束
 	其中多线程SIMD 调度是以warp为单位的
 - GPU的整体结构
-	- Cache
-	- 两个warp
-	- 两个Dispatch Unit调度单元
-	
+	![[Pasted image 20250108212843.png]]
+	Core是向量的运算单元
+	每个Core中包含一个整数运算单元ALU与一个浮点数运算单元FPU

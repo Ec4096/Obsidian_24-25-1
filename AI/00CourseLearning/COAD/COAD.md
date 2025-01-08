@@ -34,7 +34,9 @@
 - **chapter2**: [[COAD_chapter2]]
 - **chapter3**: [[COAD_chapter3]]
 - **chapter4**: [[COAD_chapter4]]
-- **chapter5**: [[COAD_chapter4]]
+- **chapter5**: [[COAD_chapter5]]
+- **chapter5**: [[COAD_chapter6]]
+- **chapter5**: [[COAD_chapter7]]
 ---
 
 # 3. 讨论与思考

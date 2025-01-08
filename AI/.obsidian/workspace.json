@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00CourseLearning/COAD/COAD_chapter7.md",
+                "file": "00CourseLearning/COAD/COAD_chapter1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "COAD_chapter7"
+              "title": "COAD_chapter1"
             }
           }
         ]
@@ -189,16 +189,18 @@
   },
   "active": "dde839de9994db22",
   "lastOpenFiles": [
+    "00CourseLearning/COAD/COAD.md",
+    "00CourseLearning/COAD/COAD_chapter1.md",
+    "00CourseLearning/COAD/COAD_chapter7.md",
+    "00_attachment/Pasted image 20250108212843.png",
     "00CourseLearning/COAD/COAD_chapter6.md",
     "00_attachment/Pasted image 20250108201347.png",
-    "00CourseLearning/COAD/COAD_chapter7.md",
     "00IAE/11.29.md",
     "00IAE/10.25大创第一次组会.md",
     "00IAE/11.22.md",
     "00IAE/12.20.md",
     "00IAE/LoRa.md",
     "00CourseLearning/COAD/COAD_chapter2.md",
-    "00CourseLearning/COAD/COAD_chapter1.md",
     "00CourseLearning/DM/DM_3_2_群论.md",
     "00CourseLearning/DM/DM_2_3_函数.md",
     "00CourseLearning/DM/DM_3_1_基数.md",
@@ -215,12 +217,10 @@
     "00_attachment/Pasted image 20250104011203.png",
     "00_attachment/Pasted image 20250104011122.png",
     "00_attachment/Pasted image 20250104010600.png",
-    "00_attachment/Pasted image 20250104010251.png",
     "00JSrg/Re_ML_Lihongyi.md",
     "00CourseLearning/AiIntroduction/FastSpeech2.md",
     "00CourseLearning/COAD/COAD_chapter5.md",
     "00CourseLearning/COAD/COAD_chapter4.md",
-    "00CourseLearning/COAD/COAD.md",
     "00_PLAN/THEMorningPlan.md",
     "template/PLANtemplate.md",
     "00CourseLearning/AiIntroduction/AiIntro.md",
