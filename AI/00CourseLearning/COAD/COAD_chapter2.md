@@ -28,7 +28,7 @@ PC 即sp寄存器 存储当前指令的地址
 	w-word-32bits
 	h-half-16bits
 	b-Byte-8bits
-- **store(s\h\b)**
+- **store(w\h\b)**
 
 ## 3. 控制指令
 - **条件分支**
