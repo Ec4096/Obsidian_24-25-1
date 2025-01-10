@@ -73,6 +73,7 @@ PC 即sp寄存器 存储当前指令的地址
 	lui将数据传入寄存器高20位，同时将低12位置零
 	![[Pasted image 20240925144703.png]]
 	auipc rd imm   // rd = PC + (imm<<12)
+	
 
 ## 6. UJ型指令 - 一个目的reg、一个立即数
 - 例如jal
